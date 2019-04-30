@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 13924
+* Analyzing classpath: 
+  - /home/swapnil/workspaces/Q0830/Calculator/target/test-classes
+  - /home/swapnil/workspaces/Q0830/Calculator/target/classes
+  - /home/swapnil/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/swapnil/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.test.util.StreamApi
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:39:29.540 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/swapnil/workspaces/Q0830/Calculator/.evosuite/evosuite-seeds/com.test.util.StreamApi.seed
+* Loaded 0 tests from /home/swapnil/workspaces/Q0830/Calculator/.evosuite/evosuite-seeds/com.test.util.StreamApi.seed
+* Total number of test goals: 
+  - Line 17
+  - Branch 9
+  - Exception 0
+  - MutationFactory 28
+  - Output 8
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 9
+* Using seed 1556615368191
+* Starting evolution
+* Search finished after 78s and 1677 generations, 530760 statements, best individual has fitness: 10.199999522231751
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 94%
+* Total number of goals: 17
+* Number of covered goals: 16
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 9
+* Number of covered goals: 8
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 79%
+* Total number of goals: 28
+* Number of covered goals: 22
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 62%
+* Total number of goals: 8
+* Number of covered goals: 5
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 89%
+* Total number of goals: 9
+* Number of covered goals: 8
+* Generated 10 tests with total length 38
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 68%
+* Compiling and checking tests
+* Writing JUnit test case 'StreamApi_ESTest' to /home/swapnil/workspaces/Q0830/Calculator/.evosuite/tmp_2019_04_30_14_39_12/tests
+* Done!
+
